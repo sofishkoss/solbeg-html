@@ -1,0 +1,21 @@
+.j {
+    text-decoration: underline;
+}
+
+link {
+    text-decoration: none;
+}
+
+.table {
+    font-size: 30px;
+    border: blueviolet;
+}
+
+.u {
+    font-size: 30px;
+}
+
+hr {
+    height: 7px;
+    color: blue;
+}
