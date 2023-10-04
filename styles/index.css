@@ -1,21 +1,12 @@
-.j {
-    text-decoration: underline;
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
 }
 
-link {
-    text-decoration: none;
-}
+.obj {
+    width: 100px;
+    height: 100px;
 
-.table {
-    font-size: 30px;
-    border: blueviolet;
-}
-
-.u {
-    font-size: 30px;
-}
-
-hr {
-    height: 7px;
-    color: blue;
 }
