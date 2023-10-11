@@ -2,24 +2,36 @@
 .main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     width: 100%;
     margin: auto;
+    max-width: 1400px
+
 }
 
 .obj {
 
     width: 25%;
-    gap: 16px;
-    max-width: 1200px;
+    gap: 1px;
 
+}
 
+.p{
+    justify-content: center;
 
 }
 
 .text {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Calibri;
     font-weight: 500;
+    color: #3d98ff;
+
+}
+
+.tx {
+    font-size: 20px;
+    font-weight: 10;
+    color: #cecece;
 
 }
