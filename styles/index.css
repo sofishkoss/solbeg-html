@@ -73,6 +73,7 @@
     font-size: 20%;
 }
 
+
 .text_location {
     font-size: 25px;
     font-weight: 10;
@@ -85,18 +86,19 @@
     align-items: center;
 }
 
-.picture_2 {
+.large_picture {
     width: 400px;
     height: 400px;
 }
 
-.picture_1 {
-    width: 100px;
-    height: 100px;
-}
-.picture {
+.middle_picture {
     width: 300px;
     height: 300px;
+}
+
+.small_picture {
+    width: 100px;
+    height: 100px;
 }
 
 .image {
