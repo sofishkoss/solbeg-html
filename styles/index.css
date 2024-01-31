@@ -22,18 +22,8 @@
 }
 
 /*/!!!!!*/
-.line {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-    height: 4px;
-    background-color: #f5bd41;
-    border: 2px;
-}
 
-.line2{
+.line2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -44,74 +34,74 @@
     border: 2px;
 }
 
-.triphouse{
-    color: #3077C6;
+.triphouse {
+    color: #3077c6;
     font-family: Ebrima;
     font-size: 60px;
     font-weight: 600;
     padding: 51px 104px;
     /*margin-left:104px;*/
     /*margin-top:51px;*/
-    margin-bottom:120px;
-
+    margin-bottom: 120px;
 }
 
-.wi{
+.wi {
     width: 100px;
 }
 
-.stays{
+.stays {
     display: flex;
     justify-content: space-between;
+    column-gap: 16px;
     flex-direction: row;
     color: white;
+    margin-left: 224px;
     font-size: 24px;
-    padding: 57px 1076px;
+    padding: 57px 300px;
     font-weight: bold;
 }
 
-.top{
+.top {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.just-middle{
+.just-middle {
     display: flex;
     color: white;
     font-size: 60px;
     font-weight: bolder;
-    margin-left:104px ;
+    margin-left: 104px;
 }
 
-.simple-text{
+.simple-text {
     display: flex;
     color: white;
     font-size: 20px;
-    margin-left:128px ;
+    margin-left: 128px;
     margin-top: 80px;
 }
 
-.nnn{
+.nnn {
     width: 800px;
     display: flex;
     justify-content: space-between;
 }
 
-
-.bott{
+.bott {
     display: flex;
-    width:85%;
-    height:64px;
+    width: 85%;
+    height: 64px;
     background-color: white;
     margin-left: 104px;
     border-radius: 8px;
     margin-top: 20px;
 }
 
-.bott-in{
-    width:300px;
-    height:64px;
+.bott-in {
+    width: 300px;
+    height: 64px;
     background-color: white;
     border-color: #f5bd41;
     border-radius: 8px;
@@ -119,53 +109,52 @@
     margin-left: 600px;
 }
 
-.bott-button{
-    width:250px;
-    height:64px;
-    background-color: #3077C6;
-    border-color: #3077C6;
+.bott-button {
+    width: 250px;
+    height: 64px;
+    background-color: #3077c6;
+    border-color: #3077c6;
     border-radius: 8px;
     margin-left: 490px;
 }
 
-.search{
+.search {
     display: flex;
     color: white;
     font-size: 30px;
     justify-content: center;
 }
 
-.downland{
+.downland {
     display: flex;
-    width:100%;
-    height:70px;
+    width: 100%;
+    height: 70px;
     margin-top: 100px;
 }
 
-.downland-g{
+.downland-g {
     display: flex;
-    width:135px;
-    height:40px;
+    width: 135px;
+    height: 40px;
     margin-left: 40%;
 }
 
-.downland-a{
+.downland-a {
     display: flex;
-    width:135px;
-    height:40px;
+    width: 135px;
+    height: 40px;
     margin-left: 20px;
-
 }
 
 .container-f {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 51px 104px ;
+    padding: 51px 104px;
 }
 
 .background {
-    width: 100%;
+    width: 100vw;
     background-color: #eaf0f9;
 }
 
@@ -184,18 +173,6 @@
     font-weight: 600;
     color: #383838;
 }
-
-.section-title-line {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1px 560px 1px 560px;
-    font-size: 30px;
-    font-weight: 600;
-    color: #383838;
-}
-
 .name_picture {
     font-size: 25px;
     font-weight: 500;
@@ -220,7 +197,7 @@
     display: flex;
     gap: 16px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .item_large {
@@ -228,7 +205,7 @@
     display: flex;
     gap: 16px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .text_location {
@@ -311,10 +288,9 @@
     max-width: 1240px;
 }
 
-.footer-min{
+.footer-min {
     display: flex;
     margin-top: 30px;
-
 }
 
 .footer {
@@ -330,13 +306,13 @@
     justify-content: flex-start;
     color: white;
     font-size: 21px;
-    margin-left:130px ;
-    margin-top:150px ;
-    margin-right:130px ;
+    margin-left: 130px;
+    margin-top: 150px;
+    margin-right: 130px;
     /*height: 500px; не получается сделать footer-inc снизу,поэтому так пока что*/
 }
 
-.bolt{
+.bolt {
     font-weight: bold;
 }
 
@@ -351,7 +327,22 @@
     justify-content: flex-start;
     color: white;
     font-size: 15px;
-    margin-left:30px ;
-    margin-top:40px ;
+    margin-left: 30px;
+    margin-top: 40px;
+}
 
+.section-title {
+    /*display: inline-block;*/
+    position: relative;
+}
+
+.section-title:hover::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    top: 35px;
+    background-color: #f5bd41;
+    font-size: 11px;
+    padding: 2px;
+    text-align: center;
 }
